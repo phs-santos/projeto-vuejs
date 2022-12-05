@@ -1,12 +1,22 @@
 <template>
   <div class="about">
-    <h1>Sou um jovem aprendiz nesse mundo de tecnologia que me encanta e motiva</h1>
+    <h1>Usando a lógica para transformar boas ideias em oportunidades</h1>
+    <img class="centered-content2 mt-5" src="@/assets/spock.gif" />
     <img class="centered-content mt-5" src="@/assets/dino.gif" />
   </div>
 </template>
 
 <style scoped>
 @media (min-width: 1024px) {
+  
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+  .centered-content2 {
+    justify-content: center;
+    margin: auto;
+  }
   .centered-content {
     margin:auto;
     display:block;

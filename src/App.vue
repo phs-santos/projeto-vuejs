@@ -7,7 +7,8 @@
 
 <template>
 	<header>
-		<img alt="Vue logo" class="logo centered-img" src="@/assets/logo.svg" width="125" height="125" />
+		<a href="https://vuejs.org/guide/introduction.html#what-is-vue" target="_blank"><img alt="Vue logo" class="centered-img" src="@/assets/logo.svg" width="125" height="125" /></a>
+		
 
 		<h1 class="centered-text mb-5">Hello World VuejS!</h1>
 
@@ -17,7 +18,6 @@
 			<v-tab value="repos" @click="route.push('/repos')">Repositórios</v-tab>
 			<v-tab value="form" @click="route.push('/form')">Formulario</v-tab>
 			<v-tab value="new" @click="route.push('/new')">Area de Imagem</v-tab>
-			<v-tab value="extra" @click="route.push('/extra')">Extra</v-tab>
 		</v-tabs>
 	</header>
 	
