@@ -4,12 +4,12 @@
       valid: true,
       name: '',
       nameRules: [
-        v => !!v || 'Nome é obrigatório',
+        v => !!v || 'Campo é obrigatório',
         v => (v && v.length <= 10) || 'Nome deve ter menos de 10 caracteres',
       ],
       email: '',
       emailRules: [
-        v => !!v || 'E-mail é obrigatório',
+        v => !!v || 'Campo é obrigatório',
         v => /.+@.+\..+/.test(v) || 'E-mail deve ser valido',
       ],
       select: null,
