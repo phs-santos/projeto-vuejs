@@ -15,7 +15,9 @@
 			<v-tab value="home" @click="route.push('/')">Home</v-tab>
 			<v-tab value="about" @click="route.push('/about')">Sobre</v-tab>
 			<v-tab value="repos" @click="route.push('/repos')">Repositórios</v-tab>
-			<v-tab value="novo" @click="route.push('/new')">Novo</v-tab>
+			<v-tab value="form" @click="route.push('/form')">Formulario</v-tab>
+			<v-tab value="new" @click="route.push('/new')">Area de Imagem</v-tab>
+			<v-tab value="extra" @click="route.push('/extra')">Extra</v-tab>
 		</v-tabs>
 	</header>
 	
