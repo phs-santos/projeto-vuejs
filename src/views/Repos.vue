@@ -2,7 +2,7 @@
   import { onMounted, ref } from 'vue'
   import axios from "axios"
 
-  const usuario = 'henrique-souza-paulo'
+  const usuario = 'phs-santos'
   const repos = ref([])
   const loading = ref(true)
   const hasError = ref(false)
